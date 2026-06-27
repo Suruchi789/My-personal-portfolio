@@ -1,0 +1,70 @@
+/* General Styling */
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 135, 135);
+    background-image:  ("url(../../Pictures/Screenshots/Screenshot 2025-11-09 171754.png)");
+}
+
+/* Header */
+header {
+    background: rgba(0, 0, 0, 0.92);;
+    color: rgb(160, 79, 93);;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Navigation - Flexbox */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background: #7bd1f189;
+    list-style: none;
+    padding: 5px;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(250, 247, 247);
+    text-decoration: none;
+}
+
+/* Articles */
+article {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.card {
+    background: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Form */
+input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 200px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
